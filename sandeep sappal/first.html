@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST</title>
+</head>
+<body>
+    <table>
+        <caption><h3>Customer Registration</h3></caption>
+        <tr>
+            <td><b>Customer ID:</b></td>
+            <td><input type="text" value="450" name="cin"></td>
+        </tr>
+        <tr>
+            <td><b>Customer Name:</b></td>
+            <td><input type="text" placeholder="First Name" name="fname">
+                <input type="text" placeholder="Lastname">
+            </td>
+            </tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td><input type="radio" value="Male" name="gender">Male
+                    <input type="radio" value="Female" name="gender">Female</td>
+            </tr>
+
+            <tr>
+                <td><b>Birth Date:</b></td>
+                <td><input type="date" id="" name="dob"></td>
+            </tr>
+            
+            <tr>
+                <td><b>Birth Time:</b></td>
+                <td><input type="time"  name="dot" id="dot"></td>
+            </tr>
+            <tr>
+                <td><b>Interest:</b></td>
+                <td>
+                    <input type="checkbox" name="" id="cint" name="cint" checked disabled>Electronics
+                    <input type="checkbox" name="" id="cint" name="cint">Electrical
+                    <input type="checkbox" name="" id="">Security Cam
+                </td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td><textarea name="address"  id="address" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><b>State:</b></td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="">-states-</option>
+                        <option value="">Madhya Pradesh</option>
+                        <option value="">Uttar Pradesh</option>
+                        <option value="">Anadra Pradesh</option>
+                        <option value="">Arunachal Pradesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Email Address:</b></td>
+                <td><input type="email" name="emailID" id="emailID"></td>
+            </tr>
+            <tr>
+                <td><b>Mobile Number:</b></td>
+                <td><input type="number" name="Mobile" id="Mobile"></td>
+            </tr>
+           <tr>
+                <td><b>Picture:</b></td>
+                <td><input type="file" name="picture" id="picture"></td>
+           </tr>
+           <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" name="password" id="password"></td>
+           </tr>       
+    </table>
+    <input type="button" value="Submit">
+    <input type="button" value="Reset">
+</body>
+</html>
