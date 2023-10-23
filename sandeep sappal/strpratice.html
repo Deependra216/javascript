@@ -1,0 +1,223 @@
+<script>
+    // function sum(){
+    //     console.log("D");
+    //     console.log("E");
+    //     console.log("E");
+    //     console.log("P");
+    //     console.log("E");
+    //     console.log("N");
+    //     console.log("D");
+    //     console.log("R");
+    //     console.log("A");
+    //     console.log("n")
+
+    // } 
+    //     const myNewArray=[["Deep",200,"Jyoti",400,"Ravi",100,"Puri",600],["sanam",700,"Katrina",550],["srk",200,"Preeti",450]]
+
+    //     function returnSecondValue(getArray){
+    //         return getArray[2][0]
+    //     }
+    //     console.log(returnSecondValue(myNewArray))
+
+
+    function call(){
+        // var x=[5,7,8,22,23,24,88,66]
+        // var newArray=x.map((item)=>{
+        // var a=item*1
+        //    return a
+        // })
+        //console.log(newArray) 
+        //newArray.map((item)=>{
+            // console.log("value : "+item)
+            // console.log("Square : "+item*item)
+            // console.log("Cube : "+item*item*item)
+            //console.log(newArray[0])
+
+       // })
+        //const person={firstName:"John",lastName:"Doe",age:46}
+        //console.log(person.firstName)
+        //  {
+        //     var s=item*item
+        //     var c=s*item
+        //     console.log("value : "+item+" square : "+s+" Cube : "+c)
+        //     console.log(newArray)
+
+        //  }
+        //var x=[5,7,8,22,23]
+
+        // for(var i=0;i<x.length;i++){
+        //     console.log("Value of "+i+" through for Loop: "+x[i])
+        // }
+        //var newArr=x.map((element,i)=>{
+            // console.log("Index :"+i+" and Value:"+element)
+    //         var mul=element*100 
+    //         return `value @ ${i} is ${element}`
+    //     })
+    //     console.log(newArr)
+    //         let  a=300
+    //    if(true){
+    //     let a=10
+    //     const b=20
+    //     console.log("INNER:",a)
+    //    }
+    //    console.log("Outer:",a)
+    //    console.log(b)
+
+
+    // var arr=[['pepsi',50],['Limca',170],['Fanta',60]]
+    // var newArr=arr.map((item)=>{
+    //     return item>50
+        
+    // })
+    // console.log(newArr)
+    // var team=[
+    //     {
+    //         name:'Deepedra',
+    //         positon:'developer'
+    //     },{
+    //         name:'Ajay',
+    //         positon:'UI designer'
+    //     },{
+    //         name:'Shyam',
+    //         positon:'developer'
+    //     },{
+    //         name:'Ranbir',
+    //         positon:'content manager'
+    //     },{
+    //         name:'Sweety',
+    //         positon:'developer'
+    //     },{
+    //         name:'Shivdutt sharma',
+    //         positon:'manager'
+    //     }
+    // ]
+    // var newArr=team.filter((item,i)=>{
+    //     var res=item.positon=='manager'
+    //    return res
+    // })
+        
+    // console.log(newArr)
+       
+    // var coding=['js','ruby','java','python','cpp']
+    // coding.forEach(function(val){ //Anonymous function or function without name
+    //     console.log(val)
+    // })
+    // coding.forEach((item)=>{ //Arrow function
+    //     console.log(item)
+    // })
+    
+    // function printMe(item){
+    //     console.log(item)
+    // }
+    // coding.forEach(printMe)
+
+    // coding.map((item,index,arr)=>{
+    
+    //     console.log(item,index,arr)
+    // })
+    // var myCoding=[
+    //     {
+    //         languageName:'JavaScript',
+    //         languageFileName:'js'
+    //     },
+    //     {
+    //         languageName:'java',
+    //         languageFileName:'java'
+    //     },
+    //     {
+    //         languageName:'Python',
+    //         languageFileName:'py'
+    //     },
+    //     {
+    //         languageName:'javaAgain',
+    //         languageFileName:'java'
+    //     }
+    // ]
+    //  myCoding.filter((item)=>{
+
+    //     console.log("ur item: "+item.languageName)
+    //  })
+
+    var books=[
+     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
+    { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
+    { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 },
+    { title: 'Book Four', genre: 'Non-Fiction', publish: 1989, edition: 2010 },
+    { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 },
+    { title: 'Book Six', genre: 'Fiction', publish: 1987, edition: 2010 },
+    { title: 'Book Seven', genre: 'History', publish: 1986, edition: 1996 },
+    { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
+    { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },]
+    // var userBooks=books.filter((bk)=>bk.genre==='History')
+     
+    // const userBooks=books.filter((bk)=>{
+    //     return bk.publish>=1995 && bk.genre=='History'})
+
+    // console.log(userBooks)
+           
+
+    // const myNumbers=[1,2,3,4,5,6,7,8,9,10]
+    // const newNums=myNumbers.map((num)=>{
+    //     return num+10
+    // })
+    // const newNums=myNumbers
+    //               .map((num)=>num*10)
+    //               .map((num)=>num+1)
+    //               .filter((num)=>{num>=40})
+    //         return newNums
+    // console.log(newNums)
+
+let nums=[1,2,3,4,5]
+
+// var myTotal=nums.reduce(function(acc,currval){
+//     console.log(`acc ${acc} currval ${currval}`)
+//     return acc+currval
+// },0)
+// let myTotal=nums.reduce((acc,currval)=>(acc+currval),0)
+
+let shoppingCart=[
+    {
+        itemName:'Js course',
+        price:2999
+    },
+    {
+        itemName:'py course',
+        price:999
+    },
+    {
+        itemName:'mobile dev course',
+        price:5999
+    },
+    {
+        itemName:'data science course',
+        price:12999
+    },
+]
+var priceToPay=shoppingCart.reduce((acc,currval)=>acc+currval.price,0)
+
+// var priceToPay=shoppingCart.map((item,acc)=>{
+//     console.log(`acc ${acc} and item ${item.price}`)
+    // return acc+item.price
+// })
+console.log("Total Price : "+priceToPay)
+
+}
+    </script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions Practice</title>
+    
+</head>
+<body>
+    <div>
+        <h2>Click on Button</h2>
+    <input type="button" value="Click Here..." onclick="call()">
+        <!-- <input type="button" value="Click Here..." onclick="sum(1,5)"> -->
+    </div>
+</body>
+</html>
